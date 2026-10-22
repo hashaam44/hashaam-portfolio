@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hashaam's portfolio — machine learning, deep learning, AI applications, and frontend development.">
+  <title>Hashaam | AI & Machine Learning Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Hashaam home"><span class="brand-mark">H</span><span>hashaam<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a>
+      <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-pulse"></span> BUILDING • LEARNING • ITERATING</div>
+        <p class="hero-kicker">AI / MACHINE LEARNING DEVELOPER</p>
+        <h1>Turning data into<br><span class="gradient-text">useful intelligence.</span></h1>
+        <p class="hero-description">I'm Hashaam. I work on machine learning and deep learning projects, AI-powered applications, and clean web interfaces. I focus on understanding the system—not just making it run.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Pakistan</span><span>Portfolio • 2026</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative AI network illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core"><span class="core-symbol">✳</span><span class="core-label">AI</span></div>
+        <span class="node node-a">ML</span><span class="node node-b">DL</span><span class="node node-c">RAG</span><span class="node node-d">JS</span>
+        <div class="art-caption"><span class="caption-dot"></span><span>EXPERIMENT → EVALUATE → IMPROVE</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-shell section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Curious by nature.<br><span class="muted-heading">Practical by approach.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-main"><p class="large-copy">I’m building my skills at the intersection of <span class="text-highlight">AI, machine learning, and web development.</span></p><p>My work includes experimenting with image-classification models, exploring retrieval-augmented generation (RAG) for knowledge-grounded answers, and developing web features with Flask and frontend technologies.</p><p>I prefer step-by-step development, testing ideas, and understanding why a solution works. The projects below reflect work in progress as well as implemented website features; their status is stated honestly.</p></div>
+        <div class="about-note"><span class="note-icon">✳</span><p class="note-title">My working principle</p><p>Build with purpose. Explain the trade-offs. Be clear about what is complete and what still needs validation.</p><div class="note-rule"></div><span class="mono-label">CURRENT FOCUS</span><p class="focus-tags"><span>Deep Learning</span><span>RAG Systems</span><span>AI Web Apps</span></p></div>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & <span class="muted-heading">technologies.</span></h2><p class="section-subtitle">Grouped by how I use them in my projects—not by an unverified proficiency score.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming & Web</h3><p>Building application logic and user-facing interfaces.</p><div class="chips"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span></div></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Machine Learning</h3><p>Training workflows, model experiments, and evaluation concepts.</p><div class="chips"><span>Machine Learning</span><span>Deep Learning</span><span>CNN</span><span>Image Classification</span><span>Model Evaluation</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⟁</div><h3>LLMs & Retrieval</h3><p>Exploring locally run language models and knowledge retrieval.</p><div class="chips"><span>Ollama</span><span>RAG</span><span>ChromaDB</span><span>Embeddings</span><span>nomic-embed-text</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌬</div><h3>Tools & Workflow</h3><p>Project development and version-controlled workflows.</p><div class="chips"><span>Git</span><span>GitHub</span><span>PowerShell</span><span>JSON / APIs</span><span>Virtual Environments</span></div></article>
+      </div>
+      <p class="fine-print">Skills shown are based on the technologies used or explored in the projects listed here. This page intentionally avoids invented certifications, years of experience, and skill ratings.</p>
+    </section>
+
+    <section class="section-shell section-block" id="projects">
+      <div class="section-heading project-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with a <span class="muted-heading">purpose.</span></h2></div><div class="project-filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all">All work</button><button class="filter" data-filter="ai">AI / ML</button><button class="filter" data-filter="web">Web</button></div></div>
+      <div class="projects-grid">
+        <article class="project-card featured-project" data-category="ai">
+          <div class="project-visual skin-visual"><div class="visual-top"><span class="visual-label">01 / COMPUTER VISION</span><span class="visual-glyph">✳</span></div><div class="skin-orb"><div class="skin-orb-inner"></div></div><div class="visual-bottom"><span>IMAGE CLASSIFICATION</span><span>SKINAI</span></div></div>
+          <div class="project-body"><div class="project-title-row"><h3>SkinAI</h3><span class="project-status status-progress">In progress</span></div><p class="project-summary">Skin-disease image classification and a knowledge-grounded assistant concept.</p><p class="project-detail">The project includes experiments with CNN-based models and a MobileNetV2 baseline. The assistant groundwork uses health-information PDFs, text chunking, embeddings, and ChromaDB retrieval. Ollama is the planned local LLM route. End-to-end model evaluation and full chatbot integration are still work to complete, so this is not presented as a clinically validated diagnostic tool.</p><div class="project-tags"><span>Python</span><span>Deep Learning</span><span>MobileNetV2</span><span>RAG</span><span>ChromaDB</span><span>Ollama</span></div><button class="text-link project-more" data-project="skinai">Read project notes <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="web">
+          <div class="project-visual hub-visual"><div class="visual-top"><span class="visual-label">02 / WEB APPLICATION</span><span class="visual-glyph">⌘</span></div><div class="mini-window"><div class="mini-window-bar"><i></i><i></i><i></i><span>AI / ML HUB</span></div><div class="mini-window-content"><div class="mini-side"></div><div class="mini-content"><b></b><b></b><div class="mini-row"><i></i><i></i><i></i></div><div class="mini-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div></div><div class="visual-bottom"><span>FLASK • USER EXPERIENCE</span><span>WEB</span></div></div>
+          <div class="project-body"><div class="project-title-row"><h3>AI/ML Hub</h3><span class="project-status status-built">Features implemented</span></div><p class="project-summary">A web platform with user accounts and profile management.</p><p class="project-detail">Implemented features include login/registration work and a profile system with profile-picture upload, profile editing, password-change functionality, and profile-picture display across several user and admin views. The work focuses on connecting UI elements to account data and keeping the experience consistent across pages.</p><div class="project-tags"><span>Flask</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Database-backed profiles</span></div><button class="text-link project-more" data-project="hub">Read project notes <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="ai">
+          <div class="project-visual rag-visual"><div class="visual-top"><span class="visual-label">03 / KNOWLEDGE RETRIEVAL</span><span class="visual-glyph">⌬</span></div><div class="rag-flow"><div class="rag-box">PDFs</div><span class="rag-arrow">→</span><div class="rag-box">Chunks</div><span class="rag-arrow">→</span><div class="rag-box rag-box-accent">Vectors</div><span class="rag-arrow">→</span><div class="rag-box">Answer</div></div><div class="visual-bottom"><span>RETRIEVE BEFORE GENERATING</span><span>RAG</span></div></div>
+          <div class="project-body"><div class="project-title-row"><h3>SkinAI Knowledge Retrieval</h3><span class="project-status status-progress">Prototype groundwork</span></div><p class="project-summary">Retrieving relevant passages from health-information documents to support responses.</p><p class="project-detail">Three WHO PDFs were processed into 446 text chunks, with 768-dimensional embeddings from nomic-embed-text stored in a ChromaDB collection named skin_disease_knowledge. Retrieval and response-safety modules were started. This is groundwork for the SkinAI assistant, not evidence that the complete system is production-ready.</p><div class="project-tags"><span>RAG</span><span>Text Chunking</span><span>Embeddings</span><span>ChromaDB</span><span>Ollama planned</span></div><button class="text-link project-more" data-project="rag">Read project notes <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="web">
+          <div class="project-visual profile-visual"><div class="visual-top"><span class="visual-label">04 / PRODUCT UI</span><span class="visual-glyph">◎</span></div><div class="profile-preview"><div class="profile-avatar">H</div><div class="profile-lines"><b></b><i></i><i></i></div><div class="profile-edit">EDIT PROFILE ↗</div></div><div class="visual-bottom"><span>PROFILE SYSTEM</span><span>UX</span></div></div>
+          <div class="project-body"><div class="project-title-row"><h3>Profile & Admin UI</h3><span class="project-status status-built">Implemented sections</span></div><p class="project-summary">A consistent profile-picture and account-management experience across the site.</p><p class="project-detail">This work covers profile editing, avatar upload/display, password-change flow, and displaying user avatars in the navbar, user dashboard, admin dashboard recent-users area, and admin user-management listing. The admin user-detail avatar was identified as the next step in the recorded progress.</p><div class="project-tags"><span>Flask Templates</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Authentication UI</span></div><button class="text-link project-more" data-project="profile">Read project notes <span>↗</span></button></div>
+        </article>
+      </div>
+      <div class="project-disclaimer"><span>ⓘ</span><p>Project status is stated as accurately as the available progress notes allow. No fake client work, deployment claims, performance metrics, testimonials, or medical-accuracy claims are included.</p></div>
+    </section>
+
+    <section class="section-shell section-block" id="journey">
+      <div class="section-heading"><p class="eyebrow">04 / HOW I WORK</p><h2>Learning through <span class="muted-heading">building.</span></h2></div>
+      <div class="journey-list">
+        <div class="journey-item"><span class="journey-index">01</span><div><h3>Understand the problem</h3><p>Define what the application should do and what evidence would show that it works.</p></div><span class="journey-symbol">↗</span></div>
+        <div class="journey-item"><span class="journey-index">02</span><div><h3>Build in small steps</h3><p>Implement a focused feature, connect the pieces, and verify behavior before moving on.</p></div><span class="journey-symbol">↗</span></div>
+        <div class="journey-item"><span class="journey-index">03</span><div><h3>Evaluate and improve</h3><p>Check model results, application behavior, limitations, and the next most useful improvement.</p></div><span class="journey-symbol">↗</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="contact-glow"></div><div class="section-shell contact-inner"><p class="eyebrow">05 / CONTACT</p><h2>Have a project<br>in mind?</h2><p class="contact-copy">I'm open to discussing AI/ML projects, learning opportunities, and collaborative work.</p><div class="contact-actions"><a class="button button-primary" id="emailLink" href="mailto:hashamsardar74@gmail.com">Email me <span>↗</span></a><button class="button button-ghost" id="copyEmail" data-email="hashamsardar@gmail.com">Copy email <span>⧉</span></button></div><div class="social-links"><a href="YOUR_GITHUB_URL" data-placeholder-link>GitHub ↗</a><a href="YOUR_LINKEDIN_URL" data-placeholder-link>LinkedIn ↗</a></div><p class="contact-hint">Replace the placeholder email and profile links in <code>index.html</code> with your real details.</p></div></section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">H</span><span>hashaam<span class="brand-dot">.</span></span></a><p>Designed & built with HTML, CSS and JavaScript.</p><a href="#home" class="back-top">Back to top ↑</a><span class="footer-year">© <span id="year">2026</span></span></footer>
+
+  <dialog class="project-dialog" id="projectDialog"><button class="dialog-close" id="dialogClose" aria-label="Close project notes">×</button><p class="eyebrow" id="dialogEyebrow">PROJECT NOTES</p><h2 id="dialogTitle"></h2><div id="dialogContent"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
